@@ -11,11 +11,13 @@ h2{
     display: block;
     font-size: 50px;
     font-family: 'News Cycle', sans-serif;
+    margin: 10px 0 20px 0;
 }
 h3{
     display: block;
     font-size: 20px;
     font-family: 'News Cycle', sans-serif;
+    margin: 10px 0 10px 0;
 }
 h4{
     color: grey;
@@ -26,7 +28,7 @@ p{
     font-style: normal;
     text-align: left;
     color: #fff;
-    margin: 10px;
+    margin: 20px 0 10px 0;
 }
 header{
     display: flex;
@@ -36,6 +38,10 @@ header{
     background-image: url("https://www.spacex.com/static/images/backgrounds-new/Turk5A-3302.webp");
     visibility: visible;
     background-size: cover;
+}
+.shop{
+    position: absolute;
+    right: 50px;
 }
 a{
     font-family: 'News Cycle', sans-serif;
@@ -75,7 +81,7 @@ section{
     padding: 10px;
     width: 175px;
     background: transparent;
-    margin: 10px;
+    margin-top: 10px;
 }
 .section1{
     background-image: url("https://www.spacex.com/static/images/backgrounds-new/Turk5A-3302.webp");
